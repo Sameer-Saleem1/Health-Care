@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Urbanist");
+
+::-webkit-scrollbar{
+    width: 0.25rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #969595;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--primary-font-color);
+}
+
+:root{
+    --primary-color: ;
+    --secondary-color: rgb(24, 162, 204) ;
+
+    --primary-font-color: #212529;
+    --secondary-font-color: rgb(180, 180, 180);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+h1{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+h2{
+    margin-top: -6px !important;
+}
+
+h3{
+    font-size: 1.2rem !important;
+    color: var(--secondary-font-color) !important;
+    font-weight: 100 !important;
+}
+
+.container{
+    place-content: center;
+}
+
+/* Navbar styling  */
+
+
+.nav-link:hover{
+    color: var(--secondary-color)!important;
+}
+
+.nav-link:active{
+    color: var(--secondary-color) !important;
+}
+
+.btn-outline-success{
+    color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.btn-outline-success:hover{
+    color: white !important;
+    background-color: var(--secondary-color) !important;
+}
+
+/* home section styling */
+
+.about-padding{
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.sub-about-padding{
+    margin-bottom: 2.8rem ;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 8px !important;
+    height: 8px !important;
+} 
+
+.appointment-btn:hover{
+    color: white !important;
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.about-doc-pic{
+    width: 65%;
+}
+
+/* About styling  */
+
+.featured-circle{
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 30rem ;
+}
+
+.container-xxl{
+    margin-right: 0;
+}
+
+/* testimonials styling  */
+
+
+
+/* Contact us section starts */
+.contact{
+    margin-bottom: 0 !important;
+}
+
+.custom-shape-divider-top-1696706648 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1696706648 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1696706648 .shape-fill {
+    fill: #FFFFFF;
+}
+
+@media screen and (max-width:600px) {
+    .phone-slide-pic{
+        padding-top: 5rem;
+    }
+}
+
+
+
